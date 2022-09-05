@@ -1,4 +1,4 @@
-<img align="right" src="https://user-images.githubusercontent.com/47650058/188333432-c3aeb596-5090-4b74-9a5e-f5957bfb6acf.png" alt="DiscordDB" height="180" width="200">
+<img align="right" src="https://user-images.githubusercontent.com/47650058/188333432-c3aeb596-5090-4b74-9a5e-f5957bfb6acf.png" alt="DiscordDB" height="200" width="200">
 
 # TDPlanner
 > TDPlanner is a To Do List application which uses mathematical calculations to plan the order of your day.
