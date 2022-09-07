@@ -3,7 +3,7 @@
 # TDPlanner
 > TDPlanner is a To Do List application which uses mathematical calculations to plan the order of your day.
 
-TDPlanner uses basic mathematics to sort the order of which the tasks listed should be done. It even provides a visual representation of the graph using the `matplotlib` package in Python.
+TDPlanner uses basic mathematics to sort the order of which the tasks listed should be done. It even provides a visual representation of the graph using the `matplotlib` package in Python. **Only Linux Builds are available because I am too lazy to build for Windows users :p**
 
 ---
 
@@ -42,6 +42,10 @@ With all the visualization, I came to a simple conclusion that each task could b
 - [ ] Add installation instructions and desktop file configuration.
 - [ ] Create wiki, project and INSTALL txt file.
 
----
+----
 
 TDPlanner (To Do Planner) is written in Python 3.9 and uses TKinter GUI to function. TDPlanner uses this TKinter [dark theme](https://github.com/formazione/tkinter_dark_theme) script from [Formazione](https://github.com/formazione) for the GUI.
+
+----
+
+*Developed by BooleanCube ;]*
