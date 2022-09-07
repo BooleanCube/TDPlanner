@@ -3,7 +3,8 @@
 # TDPlanner
 > TDPlanner is a To Do List application which uses mathematical calculations to plan the order of your day.
 
-TDPlanner uses basic mathematics to sort the order of which the tasks listed should be done. It even provides a visual representation of the graph using the `matplotlib` package in Python. **Only Linux Builds are available because I am too lazy to build for Windows users :p**
+TDPlanner uses basic mathematics to sort the order of which the tasks listed should be done. It even provides a visual representation of the graph using the `matplotlib` package in Python. <br>
+**Only Linux Builds are available because I am too lazy to build for Windows users :p**
 
 ---
 
