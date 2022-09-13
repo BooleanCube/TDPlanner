@@ -33,6 +33,10 @@ But let's say you gave more weightage to urgency instead of importance; if you d
 
 With all the visualization, I came to a simple conclusion that each task could be sorted by a singular value which is the sum of the values multiplied by the weights, or in other terms, `importance_weight*importance_value + urgence_weight*urgence_value`. Using this to calculate the value a task holds, functions the same as sweeping through the graph and I only used the graph sweeping to create a better visualization of what happens behind the scenes.
 
+## Installation
+Download and Extract the latest release from the [releases page](https://github.com/BooleanCube/TDPlanner/releases) and run the executable file after giving it execution permissions. <br>
+For further detailed installation instructions, visit the [INSTALL.md](https://github.com/BooleanCube/TDPlanner/blob/main/INSTALL.md) file which contains instructions with more steps if this didn't work out.
+
 ## BUGS
 - [ ] Matplotlib is using agg which is a non-GUI backend which doesn't allow the application to show the figures.
 - [ ] Matplotlib takes a long time to build the font cache
