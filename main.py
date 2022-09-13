@@ -121,6 +121,8 @@ class Application:
         self.refresh_box()
 
     def complete_task(self):
+        if len(self.task_box.curselection()) < 1:
+            return
         idx = self.task_box.curselection()[0]
         tid = self.tasks.task_list[idx].tid
         self.tasks.remove_task(tid)

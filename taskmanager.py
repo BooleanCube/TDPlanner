@@ -41,7 +41,7 @@ class Task:
         other_value = ((importance_weight * other.importance) + (urgence_weight * other.urgence))
         return self_value == other_value
 
-    def ne(self, other):
+    def __ne__(self, other):
         self_value = ((importance_weight * self.importance) + (urgence_weight * self.urgence))
         other_value = ((importance_weight * other.importance) + (urgence_weight * other.urgence))
         return self_value != other_value
