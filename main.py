@@ -3,8 +3,12 @@
 import tkinter.ttk
 
 from tkinter import *
+
+import matplotlib
 from matplotlib import style as ppstyle
 from matplotlib import pyplot as plt
+
+matplotlib.use("Qt5Agg")
 
 import taskmanager
 from taskmanager import TaskList
@@ -50,6 +54,8 @@ class Application:
         x = [t.urgence for t in self.tasks.task_list]
         y = [t.importance for t in self.tasks.task_list]
         plt.plot(x, y, 'ro')
+        plt.xlim([1, 10])
+        plt.ylim([1, 10])
         plt.grid()
         plt.show()
 
@@ -78,13 +84,13 @@ class Application:
         importance_label = Label(add_window, text="Importance Value: ", font="Verdana 14")
         importance_label.place(x=30, y=90)
         importance_value = IntVar(value=5)
-        importance_slider = Scale(add_window, from_=0, to=10, orient='horizontal', variable=importance_value)
+        importance_slider = Scale(add_window, from_=1, to=10, orient='horizontal', variable=importance_value)
         importance_slider.place(x=240, y=75, width=408)
 
         urgence_label = Label(add_window, text="Urgence Value: ", font="Verdana 14")
         urgence_label.place(x=30, y=150)
         urgence_value = IntVar(value=5)
-        urgence_slider = Scale(add_window, from_=0, to=10, orient='horizontal', variable=urgence_value)
+        urgence_slider = Scale(add_window, from_=1, to=10, orient='horizontal', variable=urgence_value)
         urgence_slider.place(x=240, y=133, width=408)
 
         ok_button = Button(add_window, command=lambda: self.add_task(task_name.get(), importance_value.get(),
@@ -149,7 +155,7 @@ class Application:
         reset_button.place(x=450, y=650)
 
         settings_label = Label(root, text="Weightage Settings\n~~~~~~~~~~~~~~~~~", font="Verdana 26 bold")
-        settings_label.place(x=650, y=150)
+        settings_label.place(x=725, y=150)
         importance_weight = DoubleVar(value=1.0)
         urgence_weight = DoubleVar(value=1.0)
         importance_label = Label(root, text="Importance Value Weightage: ", font="Verdana 16")
