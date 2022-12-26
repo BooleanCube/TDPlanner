@@ -19,6 +19,13 @@ $ git clone https://github.com/BooleanCube/TDPlanner.git
 ```
 - Running `python3 main.py` gets the job done, but by making `main.py` executable with `sudo chmod +x main.py`, you can run the application with `./main.py` without having to call python.
 - Creating a desktop profile is convenient but optional.
+### Compile your own executable file instead of installing from the latest stable releases.
+- Simply install pyinstaller by using `pip install pyinstaller` or `python -m pip install pyinstaller`
+- Compile the executable file by running one of 2 console commands that may work for you:
+```console
+$ pyinstaller main.py --onefile
+$ python -m PyInstaller main.py --onefile
+```
 
 ## Install Latest Stable Release of TDPlanner
 - Select the latest release from the [releases page](https://github.com/BooleanCube/TDPlanner/releases) <br>
