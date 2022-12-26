@@ -37,16 +37,6 @@ With all the visualization, I came to a simple conclusion that each task could b
 Download and Extract the latest release from the [releases page](https://github.com/BooleanCube/TDPlanner/releases) and run the executable file after giving it execution permissions. <br>
 For further detailed installation instructions, visit the [INSTALL.md](https://github.com/BooleanCube/TDPlanner/blob/main/INSTALL.md) file which contains instructions with more steps if this didn't work out.
 
-## BUGS
-- [ ] Matplotlib is using agg which is a non-GUI backend which doesn't allow the application to show the figures.
-- [ ] Matplotlib takes a long time to build the font cache
-- [ ] Icon and application name doesn't show
-
-## TODO
-- [ ] Add the lines to the Matplotlib figures that explain the mathematics.
-- [ ] Add installation instructions and desktop file configuration.
-- [ ] Create wiki, project and INSTALL txt file.
-
 ----
 
 TDPlanner (To Do Planner) is written in Python 3.9 and uses TKinter GUI to function. TDPlanner uses this TKinter [dark theme](https://github.com/formazione/tkinter_dark_theme) script from [Formazione](https://github.com/formazione) for the GUI.
